@@ -1,0 +1,160 @@
+body {
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+}
+
+h1 {
+  color: #142850;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+
+}
+
+h2 {
+  color: #142850;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+h3 {
+  color: #27496d;
+}
+
+a {
+  color: #00909e;
+  font-family: 'Lato', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dae1e7;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+hr {
+  width: 5%;
+  border-top: 8px dotted;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top-color: #dddddd;
+  margin: 100px auto 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.top_container {
+  background-color: #dae1e7;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.hello {
+  margin-top: 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile-img {
+  width: 20%;
+}
+.software-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.web-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.button {
+  background-color:#142850;
+  -webkit-border-top-left-radius:28px;
+  -moz-border-radius-topleft:28px;
+  border-top-left-radius:28px;
+  -webkit-border-top-right-radius:28px;
+  -moz-border-radius-topright:28px;
+  border-top-right-radius:28px;
+  -webkit-border-bottom-right-radius:28px;
+  -moz-border-radius-bottomright:28px;
+  border-bottom-right-radius:28px;
+  -webkit-border-bottom-left-radius:28px;
+  -moz-border-radius-bottomleft:28px;
+  border-bottom-left-radius:28px;
+  text-indent:0;
+  border:1px solid #142850;
+  display:inline-block;
+  color:#ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:50px;
+	line-height:50px;
+  width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #142850;
+}
+.button:hover {
+  background-color:#27496d;
+}
+.button:active {
+  position:relative;
+  top:1px;
+}
+
+.middle_container{
+  padding: 100px 0;
+}
+
+.bottom-container {
+  background-color: #27496d;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  margin: 0;
+  padding: 20px 0 20px;
+  color: #dae1e7;
+}
